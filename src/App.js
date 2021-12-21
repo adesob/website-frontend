@@ -30,7 +30,7 @@ const App = () => {
 
   //API test method
   const callAPI = () => {
-      fetch("http://localhost:9000/testAPI")
+      fetch("https://vigorous-albattani-8da819.netlify.app/.netlify/functions/app/testAPI")
           .then(res => res.text())
           .then(res => setApiState({ apiResponse: res }));
   }
