@@ -22,7 +22,7 @@ const SplashContainer = (props) => {
 
     
     const fetchProjects = async () => {
-      const res = await fetch('http://localhost:9000/projects')
+      const res = await fetch('https://vigorous-albattani-8da819.netlify.app/.netlify/functions/app/projects')
       const data = await res.json();
       return data
     }
