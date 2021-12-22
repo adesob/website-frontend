@@ -5,7 +5,8 @@ const SplashContent = (props) => {
     return (
         <div className = "contentBx">
               <h1 id = "intro-1">Hi!
-                <span> I'm Ade</span> 
+                <span> I'm Ade </span>
+                {/* &nbsp;  */}
               </h1>  
           </div>
     )

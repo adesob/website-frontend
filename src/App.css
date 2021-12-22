@@ -133,7 +133,7 @@
   position:absolute; 
   top:60%;
   left:59%;
-  font-size:90%;
+  font-size:87%;
   width:80%;
   /* height:80%; */
   transform:translate(-50%,-50%);
@@ -197,6 +197,20 @@
 #github, #projects{
     font-size:60%;
     font-weight:300;
+}
+
+#links{
+  text-decoration:none;
+}
+
+#links:hover{
+  text-decoration: underline;
+  color: rgb(240, 230, 215);
+}
+
+#links:visited{
+  text-decoration: none;
+  color: rgb(240, 230, 215);
 }
 
 #linkedin-av:hover, #resume-av:hover, 
@@ -735,7 +749,7 @@ background-position: 50% 50%;
       font-size: 225%;
   }
   .infoBx p{
-      font-size: 80%;
+      font-size: 75%;
   }
   .socials{
       font-size: 14px;
